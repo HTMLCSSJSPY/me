@@ -4,6 +4,30 @@ body {
     font-family: "Segoe UI", sans-serif;
     padding: 2em;
 }
+.center-text {
+    text-align: center;
+}
+.links {
+    text-decoration: none;
+    text-align: center;
+}
+.links a {
+  display: inline-block;
+  background-color: #1e293b; /* Dark box */
+  color: #f8fafc;             /* Light text */
+  padding: 10px 16px;
+  margin: 8px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: 500;
+  font-family: "Segoe UI", sans-serif;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+.links a:hover {
+  background-color: #334155; /* Slightly lighter on hover */
+  color: #e2e8f0;            /* Soft contrast */
+}
 .code-container {
     position: relative;
     background-color: #1e293b;
