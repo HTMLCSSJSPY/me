@@ -7,6 +7,13 @@ body {
 .center-text {
     text-align: center;
 }
+.references {
+    text-decoration: none;
+}
+.references a {
+    color: #334155;
+    font-family: "Segoe UI", sans-serif;
+    text-decoration: none;
 .links {
     text-decoration: none;
     text-align: center;
@@ -97,5 +104,6 @@ pre {
     margin: 0;
     white-space: pre-wrap;
 }
+
 
 
