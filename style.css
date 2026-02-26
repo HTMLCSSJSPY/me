@@ -14,6 +14,7 @@ body {
     color: #334155;
     font-family: "Segoe UI", sans-serif;
     text-decoration: none;
+    display: inline;
 }
 .links {
     text-decoration: none;
@@ -105,6 +106,7 @@ pre {
     margin: 0;
     white-space: pre-wrap;
 }
+
 
 
 
