@@ -13,8 +13,8 @@ body {
 }
 .links a {
   display: inline-block;
-  background-color: #1e293b; /* Dark box */
-  color: #f8fafc;             /* Light text */
+  background-color: #1e293b; 
+  color: #f8fafc;            
   padding: 10px 16px;
   margin: 8px;
   border-radius: 10px;
@@ -25,53 +25,57 @@ body {
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 .links a:hover {
-  background-color: #334155; /* Slightly lighter on hover */
-  color: #e2e8f0;            /* Soft contrast */
+  background-color: #334155; 
+  color: #e2e8f0;           
 }
 .code-container {
-    position: relative;
     background-color: #1e293b;
     border-radius: 10px;
-    padding: 1.5em 1.5em 1em;
     margin: 1em 0;
-    font-family: "Courier New", monospace;
-    color: #f8fafc;
     overflow-x: auto;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    color: #f8fafc;
+    font-family: "Courier New", monospace;
+    padding: 0;
 }
-.code-container::before { 
-    content: "Code:"; 
-    position: absolute; 
-    top: 6px; left: 12px; 
-    background-color: #334155; 
-    color: #f8fafc; 
-    padding: 2px 8px; 
-    font-size: 0.8em; 
-    border-radius: 4px; 
-    opacity: 0.9; 
+.code-container .header {
+    font-family: "Inter", sans-serif;
+    font-size: 0.9em;
+    font-weight: 600;
+    padding: 0.6em 1em;
+    background-color: #334155;
+    color: #f8fafc;
+    border-radius: 10px 10px 0 0;
+    border-bottom: 1px solid #475569;
+}
+.code-container pre {
+    margin: 0;
+    padding: 1em 1.5em;
 }
 .output-container {
-    position: relative;
-    background-color: #242424;
+    background-color: #1e293b;
     border-radius: 10px;
-    padding: 1.5em 1.5em 1em;
     margin: 1em 0;
-    font-family: "Courier New", monospace;
-    color: #f8fafc;
     overflow-x: auto;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    color: #f8fafc;
+    font-family: "Courier New", monospace;
+    padding: 0;
 }
-.output-container::before { 
-    content: "Output:"; 
-    position: absolute; 
-    top: 6px; 
-    left: 12px; 
-    background-color: #334155; 
-    color: #f8fafc; 
-    padding: 2px 8px; 
-    font-size: 0.8em; 
-    border-radius: 4px; 
-    opacity: 0.9; 
+.output-container .header {
+    font-family: "Inter", sans-serif;
+    font-size: 0.9em;
+    font-weight: 600;
+    padding: 0.6em 1em;
+    background-color: #334155;
+    color: #f8fafc;
+    border-radius: 10px 10px 0 0;
+    border-bottom: 1px solid #475569;
+}
+
+.output-container pre {
+    margin: 0;
+    padding: 1em 1.5em;
 }
 .copy-button {
     position: absolute;
@@ -93,4 +97,5 @@ pre {
     margin: 0;
     white-space: pre-wrap;
 }
+
 
