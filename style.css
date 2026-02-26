@@ -32,12 +32,46 @@ body {
     position: relative;
     background-color: #1e293b;
     border-radius: 10px;
-    padding: 1em 1.5em;
+    padding: 1.5em 1.5em 1em;
     margin: 1em 0;
     font-family: "Courier New", monospace;
     color: #f8fafc;
     overflow-x: auto;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+.code-container::before { 
+    content: "Code:"; 
+    position: absolute; 
+    top: 6px; left: 12px; 
+    background-color: #334155; 
+    color: #f8fafc; 
+    padding: 2px 8px; 
+    font-size: 0.8em; 
+    border-radius: 4px; 
+    opacity: 0.9; 
+}
+.output-container {
+    position: relative;
+    background-color: #242424;
+    border-radius: 10px;
+    padding: 1.5em 1.5em 1em;
+    margin: 1em 0;
+    font-family: "Courier New", monospace;
+    color: #f8fafc;
+    overflow-x: auto;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+.output-container::before { 
+    content: "Output:"; 
+    position: absolute; 
+    top: 6px; 
+    left: 12px; 
+    background-color: #334155; 
+    color: #f8fafc; 
+    padding: 2px 8px; 
+    font-size: 0.8em; 
+    border-radius: 4px; 
+    opacity: 0.9; 
 }
 .copy-button {
     position: absolute;
@@ -59,3 +93,4 @@ pre {
     margin: 0;
     white-space: pre-wrap;
 }
+
