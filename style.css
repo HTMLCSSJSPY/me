@@ -11,9 +11,9 @@ body {
     text-decoration: none;
 }
 .references a {
-    color: #334155;
+    color: #f8fafc;
     font-family: "Segoe UI", sans-serif;
-    text-decoration: none;
+    text-decoration: underline;
     display: inline;
 }
 .links {
@@ -106,6 +106,7 @@ pre {
     margin: 0;
     white-space: pre-wrap;
 }
+
 
 
 
