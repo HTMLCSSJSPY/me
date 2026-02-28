@@ -38,6 +38,7 @@ body {
   color: #e2e8f0;           
 }
 .code-container {
+    position: relative;
     background-color: #1e293b;
     border-radius: 10px;
     margin: 1em 0;
@@ -106,6 +107,7 @@ pre {
     margin: 0;
     white-space: pre-wrap;
 }
+
 
 
 
